@@ -21,6 +21,9 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
+    "@three.ez/main": "^0.1.3",
+    "ammo.js": "^0.0.10",
+    "bitecs": "^0.3.40",
     "cannon": "^0.6.2",
     "three": "^0.156.1"
   }
