@@ -13,7 +13,6 @@
   import createPhysicsSystem from "./systems/physics";
   import Player from "./components/player";
   import createPlayerControlSystem from "./systems/player-control";
-  import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
   let frame: number;
   onMount(() => {
@@ -26,7 +25,6 @@
       2000
     );
     camera.position.z = 250;
-    const controls = new OrbitControls( camera, renderer.domElement );
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
